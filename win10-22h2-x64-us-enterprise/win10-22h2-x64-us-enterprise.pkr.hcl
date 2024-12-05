@@ -30,7 +30,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "win10-21h2-x64-us-enterprise-template"
+  default = "win10-22h2-x64-us-enterprise-template"
 }
 
 variable "winrm_password" {
