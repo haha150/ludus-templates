@@ -30,7 +30,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "win2019-x64-fr-server-template"
+  default = "win2019-server-x64-fr-template"
 }
 
 variable "winrm_password" {
@@ -84,7 +84,7 @@ locals {
   template_description = "Windows Server 2019 64-bit template built ${legacy_isotime("2006-01-02 03:04:05")} username:password => localuser:password"
 }
 
-source "proxmox-iso" "win2019-x64-fr-server" {
+source "proxmox-iso" "win2019-server-x64-fr" {
   additional_iso_files {
     device           = "sata3"
     iso_storage_pool = "${var.iso_storage_pool}"
@@ -143,7 +143,7 @@ source "proxmox-iso" "win2019-x64-fr-server" {
 }
 
 build {
-  sources = ["source.proxmox-iso.win2019-x64-fr-server"]
+  sources = ["source.proxmox-iso.win2019-server-x64-fr"]
 
   provisioner "ansible" {
     playbook_file = "ansible/windows_update_security_updates.yml"
