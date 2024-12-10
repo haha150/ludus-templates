@@ -39,11 +39,11 @@ function Check-ContinueRestartOrEnd() {
       }
       elseif ($script:Cycles -gt $global:MaxCycles) {
         LogWrite "Exceeded Cycle Count - Stopping"
-        & "E:\common\setup-for-ansible.ps1"
+        & "E:\setup-for-ansible.ps1"
       }
       else {
         LogWrite "Done Installing Windows Updates"
-        & "E:\common\setup-for-ansible.ps1"
+        & "E:\setup-for-ansible.ps1"
       }
     }
     1 {
@@ -144,7 +144,7 @@ function Install-WindowsUpdates()
     LogWrite 'No updates available to install...'
     $global:MoreUpdates = 0
     $global:RestartRequired = 0
-    & "E:\common\setup-for-ansible.ps1"
+    & "E:\setup-for-ansible.ps1"
     break
   }
 
