@@ -165,12 +165,8 @@
             </AutoLogon>
             <FirstLogonCommands>
                 <SynchronousCommand wcm:action="add">
-                    <CommandLine>reg add HKLM\System\CurrentControlSet\Control\Network\NewNetworkWindowOff</CommandLine>
-                    <Description>Disable the network discovery prompt window</Description>
                     <Order>1</Order>
-                    <!-- RequiresUserInput doesn't actually wait for user input, it just boots to desktop quickly so if there is 
-                    a dialog box it can be interacted with, but we don't have one, we just want to get to the desktop ASAP -->
-                    <RequiresUserInput>true</RequiresUserInput>
+                    <CommandLine>reg add HKLM\System\CurrentControlSet\Control\Network\NewNetworkWindowOff</CommandLine>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
                     <Order>2</Order>
@@ -214,12 +210,6 @@
                 </LocalAccounts>
             </UserAccounts>
             <TimeZone>Eastern Standard Time</TimeZone>
-        </component>
-        <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <InputLocale>fr-FR</InputLocale>
-            <SystemLocale>fr-FR</SystemLocale>
-            <UILanguage>fr-FR</UILanguage>
-            <UserLocale>fr-FR</UserLocale>
         </component>
     </settings>
     <settings pass="offlineServicing">
