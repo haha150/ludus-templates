@@ -151,12 +151,8 @@
             </AutoLogon>
             <FirstLogonCommands>
                 <SynchronousCommand wcm:action="add">
-                    <CommandLine>reg add HKLM\System\CurrentControlSet\Control\Network\NewNetworkWindowOff</CommandLine>
-                    <Description>Disable the network discovery prompt window</Description>
                     <Order>1</Order>
-                    <!-- RequiresUserInput doesn't actually wait for user input, it just boots to desktop quickly so if there is 
-                    a dialog box it can be interacted with, but we don't have one, we just want to get to the desktop ASAP -->
-                    <RequiresUserInput>true</RequiresUserInput>
+                    <CommandLine>reg add HKLM\System\CurrentControlSet\Control\Network\NewNetworkWindowOff</CommandLine>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
                     <Order>2</Order>
@@ -185,7 +181,7 @@
                         </Password>
                         <Description>LocalUser</Description>
                         <DisplayName>localuser</DisplayName>
-                        <Group>Administrateurs</Group>
+                        <Group>Administrators</Group>
                         <Name>localuser</Name>
                     </LocalAccount>
                 </LocalAccounts>
