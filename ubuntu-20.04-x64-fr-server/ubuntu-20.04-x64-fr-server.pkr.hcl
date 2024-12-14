@@ -85,7 +85,7 @@ locals {
   template_description = "Ubutntu 20.04 template built ${legacy_isotime("2006-01-02 03:04:05")} username:password => localuser:password"
 }
 
-source "proxmox-iso" "ubuntu2004" {
+source "proxmox-iso" "ubuntu-20" {
   boot_command = [
     "<esc><wait>",
     "<esc><wait>",
@@ -152,7 +152,7 @@ source "proxmox-iso" "ubuntu2004" {
 }
 
 build {
-  sources = ["source.proxmox-iso.ubuntu2004"]
+  sources = ["source.proxmox-iso.ubuntu-20"]
 
   provisioner "ansible" {
     playbook_file = "ansible/post-boot-config.yml"
