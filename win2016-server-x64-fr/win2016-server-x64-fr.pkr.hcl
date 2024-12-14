@@ -1,6 +1,6 @@
 variable "iso_checksum" {
   type    = string
-  default = "md5:70721288BBCDFE3239D8F8C0FAE55F1F"
+  default = "sha256:a8a60cdd3eb7a76962e4168bb61ae5eae2fbc40074aa32f8595b47f4b7fb9936"
 }
 
 variable "os" {
@@ -10,7 +10,7 @@ variable "os" {
 
 variable "iso_url" {
   type    = string
-  default = "https://software-download.microsoft.com/download/pr/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO"
+  default = "https://download.microsoft.com/download/5/A/2/5A2C8AEF-EDD8-4025-801B-C7171FAF761D/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_FR-FR.ISO"
 }
 
 variable "vm_cpu_cores" {
@@ -30,7 +30,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "win2016-server-x64-template"
+  default = "win2016-server-x64-fr-template"
 }
 
 variable "winrm_password" {
@@ -84,7 +84,7 @@ locals {
   template_description = "Windows Server 2016 64-bit template built ${legacy_isotime("2006-01-02 03:04:05")} username:password => localuser:password"
 }
 
-source "proxmox-iso" "win2016-server-x64" {
+source "proxmox-iso" "win2016-server-x64-fr" {
   additional_iso_files {
     device           = "sata3"
     iso_storage_pool = "${var.iso_storage_pool}"
@@ -143,7 +143,7 @@ source "proxmox-iso" "win2016-server-x64" {
 }
 
 build {
-  sources = ["source.proxmox-iso.win2016-server-x64"]
+  sources = ["source.proxmox-iso.win2016-server-x64-fr"]
 
   provisioner "windows-shell" {
     scripts = ["scripts/disablewinupdate.bat"]
