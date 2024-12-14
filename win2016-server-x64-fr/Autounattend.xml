@@ -129,7 +129,7 @@
         <!-- End server specific settings -->
         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ComputerName>WIN2016-SRV-X64</ComputerName>
-            <TimeZone>Eastern Standard Time</TimeZone>
+            <TimeZone>Romance Standard Time</TimeZone>
         </component>
         <component name="Microsoft-Windows-TerminalServices-LocalSessionManager" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <fDenyTSConnections>false</fDenyTSConnections>
@@ -166,7 +166,6 @@
             <FirstLogonCommands>
                 <SynchronousCommand wcm:action="add">
                     <CommandLine>reg add HKLM\System\CurrentControlSet\Control\Network\NewNetworkWindowOff</CommandLine>
-                    <Description>Disable the network discovery prompt window</Description>
                     <Order>1</Order>
                 </SynchronousCommand>
                 <SynchronousCommand wcm:action="add">
@@ -210,7 +209,7 @@
                     </LocalAccount>
                 </LocalAccounts>
             </UserAccounts>
-            <TimeZone>Eastern Standard Time</TimeZone>
+            <TimeZone>Romance Standard Time</TimeZone>
         </component>
     </settings>
     <settings pass="offlineServicing">
