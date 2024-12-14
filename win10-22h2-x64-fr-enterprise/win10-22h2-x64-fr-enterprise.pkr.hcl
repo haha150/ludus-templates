@@ -84,7 +84,7 @@ locals {
   template_description = "Windows 10 22H2 Enterprise 64-bit template built ${legacy_isotime("2006-01-02 03:04:05")} username:password => localuser:password"
 }
 
-source "proxmox-iso" "win10-22h2-x64-enterprise" {
+source "proxmox-iso" "win10-22h2-x64-fr-enterprise" {
   additional_iso_files {
     device           = "sata3"
     iso_storage_pool = "${var.iso_storage_pool}"
@@ -143,7 +143,7 @@ source "proxmox-iso" "win10-22h2-x64-enterprise" {
 }
 
 build {
-  sources = ["source.proxmox-iso.win10-22h2-x64-enterprise"]
+  sources = ["source.proxmox-iso.win10-22h2-x64-fr-enterprise"]
 
   provisioner "windows-shell" {
     scripts = ["scripts/disablewinupdate.bat"]
