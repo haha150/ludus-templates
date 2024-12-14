@@ -37,3 +37,26 @@ ludus templates build -n almalinux-8-x64-fr-server-template
 ```bash
 ludus templates logs -f
 ```
+
+## Templates status
+
+- Verified
+
+- [x] win10-22h2-x64-fr-enterprise
+- [x] win2016-server-x64-fr
+- [x] win2019-server-x64-fr
+
+- To verify
+
+- [ ] almalinux-8-x64-fr-server
+- [ ] almalinux-8-x64-us-server
+- [ ] almalinux-9-x64-fr-server
+- [ ] almalinux-9-x64-us-server
+- [ ] rocky-8-x64-fr-server
+- [ ] rocky-8-x64-us-server
+- [ ] rocky-9-x64-fr-server
+- [ ] rocky-9-x64-us-server
+- [ ] ubuntu-20.04-x64-fr-server
+- [ ] ubuntu-22.04-x64-fr-server
+- [ ] ubuntu-24.04-x64-fr-desktop
+- [ ] win10-22h2-x64-us-enterprise
