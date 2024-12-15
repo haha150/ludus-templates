@@ -42,6 +42,7 @@ ludus templates logs -f
 
 - Verified
 
+- [x] rocky-8-x64-fr-server
 - [x] ubuntu-20.04-x64-fr-server
 - [x] ubuntu-22.04-x64-fr-server
 - [x] ubuntu-24.04-x64-fr-desktop
@@ -56,7 +57,6 @@ ludus templates logs -f
 - [ ] almalinux-8-x64-us-server
 - [ ] almalinux-9-x64-fr-server
 - [ ] almalinux-9-x64-us-server
-- [ ] rocky-8-x64-fr-server
 - [ ] rocky-8-x64-us-server
 - [ ] rocky-9-x64-fr-server
 - [ ] rocky-9-x64-us-server
