@@ -58,3 +58,10 @@ ludus templates logs -f
 - [ ] rocky-9-x64-fr-server
 - [ ] rocky-9-x64-us-server
 - [ ] win2022-server-x64-fr
+
+## Templates pending
+
+- [ ] win2022-server-x64-us
+- [ ] win11-22h2-x64-us
+- [ ] win11-22h2-x64-fr
+
