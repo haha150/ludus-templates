@@ -1,6 +1,7 @@
 variable "iso_checksum" {
   type    = string
   default = "sha256:a32de43bd5201f3665d323d3f384c6eec4091e8b7eb4e7f35ae18455274e3ee8"
+# A VERIFIER
 }
 
 variable "os" {
@@ -10,7 +11,7 @@ variable "os" {
 
 variable "iso_url" {
   type    = string
-  default = "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso"
+  default = "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_fr-fr.iso"
 }
 
 variable "vm_cpu_cores" {
@@ -158,15 +159,15 @@ build {
   }
 
   provisioner "windows-shell" {
-    scripts = ["../scripts/disablewinupdate.bat"]
+    scripts = ["scripts/disablewinupdate.bat"]
   }
 
   provisioner "powershell" {
-    scripts = ["../scripts/disable-hibernate.ps1"]
+    scripts = ["scripts/disable-hibernate.ps1"]
   }
 
   provisioner "powershell" {
-    scripts = ["../scripts/install-virtio-drivers.ps1"]
+    scripts = ["scripts/install-virtio-drivers.ps1"]
   }
 
 }
