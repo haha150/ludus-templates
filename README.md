@@ -69,3 +69,4 @@ ludus templates logs -f
 - [ ] debian-11-x64-us-server
 - [ ] debian-11-x64-fr-server
 - [ ] debian-12-x64-us-server
+- [ ] debian-12-x64-fr-server
