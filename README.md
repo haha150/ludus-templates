@@ -67,3 +67,4 @@ ludus templates logs -f
 - [ ] kali-2024-3-x64-us-desktop
 - [ ] kali-2024-3-x64-fr-desktop
 - [ ] debian-11-x64-us-server
+- [ ] debian-11-x64-fr-server
