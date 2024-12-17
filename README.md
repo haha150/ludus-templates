@@ -64,4 +64,4 @@ ludus templates logs -f
 - [ ] win2022-server-x64-us
 - [ ] win11-22h2-x64-us
 - [ ] win11-22h2-x64-fr
-
+- [ ] kali-2024-3-x64-us
