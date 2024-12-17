@@ -62,7 +62,8 @@ ludus templates logs -f
 ## Templates pending
 
 - [ ] win2022-server-x64-us
-- [ ] win11-22h2-x64-us
-- [ ] win11-22h2-x64-fr
-- [ ] kali-2024-3-x64-us
-- [ ] kali-2024-3-x64-fr
+- [ ] win11-22h2-x64-us-enterprise
+- [ ] win11-22h2-x64-fr-enterprise
+- [ ] kali-2024-3-x64-us-desktop
+- [ ] kali-2024-3-x64-fr-desktop
+- [ ] debian-11-x64-us-server
