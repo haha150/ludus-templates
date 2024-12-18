@@ -48,6 +48,7 @@ ludus templates logs -f
 - [x] win10-22h2-x64-us-enterprise
 - [x] win2016-server-x64-fr
 - [x] win2019-server-x64-fr
+- [x] win2022-server-x64-fr
 
 ## Templates to verify
 
@@ -57,11 +58,10 @@ ludus templates logs -f
 - [ ] rocky-8-x64-us-server
 - [ ] rocky-9-x64-fr-server
 - [ ] rocky-9-x64-us-server
-- [ ] win2022-server-x64-fr
+- [ ] win2022-server-x64-us
 
 ## Templates pending
 
-- [ ] win2022-server-x64-us
 - [ ] win11-22h2-x64-us-enterprise
 - [ ] win11-22h2-x64-fr-enterprise
 - [ ] kali-2024-3-x64-us-desktop
