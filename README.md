@@ -40,33 +40,37 @@ ludus templates logs -f
 
 ## Templates Verified
 
-- [x] rocky-8-x64-fr-server
-- [x] ubuntu-20.04-x64-fr-server
-- [x] ubuntu-22.04-x64-fr-server
-- [x] ubuntu-24.04-x64-fr-desktop
-- [x] win10-22h2-x64-fr-enterprise
-- [x] win10-22h2-x64-us-enterprise
-- [x] win2016-server-x64-fr
-- [x] win2019-server-x64-fr
-- [x] win2022-server-x64-fr
+- French
+  - Windows
+    - [x] win10-22h2-x64-fr-enterprise
+    - [x] win2016-server-x64-fr
+    - [x] win2019-server-x64-fr
+    - [x] win2022-server-x64-fr
+  - Linux
+    - [x] almalinux-9-x64-fr-server
+    - [x] debian-11-x64-fr-server
+    - [x] debian-12-x64-fr-server
+    - [x] rocky-8-x64-fr-server
+    - [x] rocky-9-x64-fr-server
+    - [x] ubuntu-20.04-x64-fr-server
+    - [x] ubuntu-22.04-x64-fr-server
+    - [x] ubuntu-24.04-x64-fr-desktop
+
+- English
+  - Windows
+    - [x] win10-22h2-x64-us-enterprise
+    - [x] win2022-server-x64-us
+  - Linux
+    - [x] almalinux-8-x64-us-server
+    - [x] almalinux-9-x64-us-server
+    - [x] debian-11-x64-us-server
+    - [x] debian-12-x64-us-server
+    - [x] rocky-8-x64-us-server
+    - [x] rocky-9-x64-us-server
 
 ## Templates to verify
-
-- [ ] almalinux-8-x64-us-server
-- [ ] almalinux-9-x64-fr-server
-- [ ] almalinux-9-x64-us-server
-- [ ] rocky-8-x64-us-server
-- [ ] rocky-9-x64-fr-server
-- [ ] rocky-9-x64-us-server
-- [ ] win2022-server-x64-us
-
-## Templates pending
 
 - [ ] win11-22h2-x64-us-enterprise
 - [ ] win11-22h2-x64-fr-enterprise
 - [ ] kali-2024-3-x64-us-desktop
 - [ ] kali-2024-3-x64-fr-desktop
-- [ ] debian-11-x64-us-server
-- [ ] debian-11-x64-fr-server
-- [ ] debian-12-x64-us-server
-- [ ] debian-12-x64-fr-server
