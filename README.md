@@ -69,7 +69,7 @@ ludus templates logs -f
 ## LUDUS native templates
 
 > From LUDUS github with language change, native template renamed to us and made standalone if needed
-> means removed common direcory reference and changed iso
+> means removed common directory reference and changed to iso and adding necessary files
 
 - English
   - Windows
