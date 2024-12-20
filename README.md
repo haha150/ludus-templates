@@ -43,10 +43,12 @@ ludus templates logs -f
 - French
   - Windows
     - [x] win10-22h2-x64-fr-enterprise
+    - [x] win11-22h2-x64-fr-enterprise
     - [x] win2016-server-x64-fr
     - [x] win2019-server-x64-fr
     - [x] win2022-server-x64-fr
   - Linux
+    - [x] almalinux-8-x64-fr-server
     - [x] almalinux-9-x64-fr-server
     - [x] debian-11-x64-fr-server
     - [x] debian-12-x64-fr-server
@@ -58,19 +60,41 @@ ludus templates logs -f
 
 - English
   - Windows
-    - [x] win10-22h2-x64-us-enterprise
-    - [x] win2022-server-x64-us
   - Linux
     - [x] almalinux-8-x64-us-server
     - [x] almalinux-9-x64-us-server
     - [x] debian-11-x64-us-server
     - [x] debian-12-x64-us-server
+
+## LUDUS native templates
+
+> From LUDUS github with language change, native template renamed to us and made standalone if needed
+> means removed common direcory reference and changed iso
+
+- English
+  - Windows
+    - [x] win10-22h2-x64-us-enterprise
+    - [x] win2022-server-x64-us
+  - Linux
+    - [x] almalinux-8-x64-us-server
+    - [x] almalinux-9-x64-us-server
     - [x] rocky-8-x64-us-server
     - [x] rocky-9-x64-us-server
 
-## Templates to verify
+## Templates to come
 
-- [ ] win11-22h2-x64-us-enterprise
-- [ ] win11-22h2-x64-fr-enterprise
-- [ ] kali-2024-3-x64-us-desktop
-- [ ] kali-2024-3-x64-fr-desktop
+- Problem with apt-update
+    - [ ] kali-2024-3-x64-us-desktop
+    - [ ] kali-2024-3-x64-fr-desktop
+
+- From LUDUS github with language change and native template renaming and made standalone if needed :
+    - [ ] win10-21h1-x64-us-enterprise
+    - [ ] win10-21h1-x64-fr-enterprise
+    - [ ] win11-22h2-x64-us-enterprise
+    - [ ] win11-22h2-x64-fr-enterprise
+    - [ ] win11-23h2-x64-us-enterprise
+    - [ ] win11-23h2-x64-fr-enterprise
+    - [ ] win2012-r2-server-x64-us
+    - [ ] win2012-r2-server-x64-fr
+    - [ ] win2019-server-x64-us-no-security-updates
+    - [ ] win2019-server-x64-fr-no-security-updates
