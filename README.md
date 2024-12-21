@@ -52,6 +52,7 @@ ludus templates logs -f
     - [x] almalinux-9-x64-fr-server
     - [x] debian-11-x64-fr-server
     - [x] debian-12-x64-fr-server
+    - [x] kali-2024-3-x64-fr-desktop
     - [x] rocky-8-x64-fr-server
     - [x] rocky-9-x64-fr-server
     - [x] ubuntu-20.04-x64-fr-server
@@ -73,6 +74,7 @@ ludus templates logs -f
 
 - English
   - Windows
+    - [x] kali-2024-3-x64-us-desktop ([patched by Erik@Ludus](https://gitlab.com/badsectorlabs/ludus/-/commit/9539122a664284beeb833edea2c465dc497fef15)
     - [x] win10-22h2-x64-us-enterprise
     - [x] win2022-server-x64-us
   - Linux
@@ -82,10 +84,6 @@ ludus templates logs -f
     - [x] rocky-9-x64-us-server
 
 ## Templates to come
-
-- Problem with apt-update
-    - [ ] kali-2024-3-x64-us-desktop
-    - [ ] kali-2024-3-x64-fr-desktop
 
 - From LUDUS github with language change and native template renaming and made standalone if needed :
     - [ ] win10-21h1-x64-us-enterprise
