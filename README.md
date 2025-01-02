@@ -53,6 +53,7 @@ ludus templates logs -f
     - [x] debian-11-x64-fr-server
     - [x] debian-12-x64-fr-server
     - [x] kali-2024-4-x64-fr-desktop
+    - [x] kali-2024-4-x64-fr-desktop-pentest
     - [x] rocky-8-x64-fr-server
     - [x] rocky-9-x64-fr-server
     - [x] ubuntu-20.04-x64-fr-server
@@ -66,6 +67,7 @@ ludus templates logs -f
     - [x] almalinux-9-x64-us-server
     - [x] debian-11-x64-us-server
     - [x] debian-12-x64-us-server
+    - [x] kali-2024-4-x64-us-desktop-pentest
 
 ## LUDUS native templates
 
@@ -74,13 +76,12 @@ ludus templates logs -f
 
 - English
   - Windows
-9539122a664284beeb833edea2c465dc497fef15) )
     - [x] win10-22h2-x64-us-enterprise
     - [x] win2022-server-x64-us
   - Linux
     - [x] almalinux-8-x64-us-server
     - [x] almalinux-9-x64-us-server
-    - [x] kali-2024-4-x64-us-desktop ( [patched by Erik@Ludus](https://gitlab.com/badsectorlabs/ludus/-/commit/
+    - [x] kali-2024-4-x64-us-desktop ( [patched by Erik@Ludus](https://gitlab.com/badsectorlabs/ludus/-/commit/9539122a664284beeb833edea2c465dc497fef15) )
     - [x] rocky-8-x64-us-server
     - [x] rocky-9-x64-us-server
 
