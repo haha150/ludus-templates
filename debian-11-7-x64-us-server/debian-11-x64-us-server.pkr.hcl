@@ -31,7 +31,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "debian-11-x64-fr-server-template"
+  default = "debian-11-x64-us-server-template"
 }
 
 variable "ssh_password" {
@@ -89,9 +89,9 @@ source "proxmox-iso" "debian11" {
   boot_command = [
     "<down><tab><wait>", # non-graphical install
     "preseed/url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/debian-11-preseed.cfg ",
-    "<wait>language=fr locale=fr_FR.UTF-8 ",
-    "<wait>country=FR keymap=fr ",
-    "<wait>hostname=debian11 domain=local ",
+    "<wait>language=en locale=en_US.UTF-8 ",
+    "<wait>country=US keymap=us ",
+    "<wait>hostname=debian11us domain=local ",
     "<enter><wait>",
   ]
   boot_key_interval = "100ms"
