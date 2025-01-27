@@ -11,7 +11,7 @@ variable "os" {
 
 variable "iso_url" {
   type    = string
-  default = "https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66751/22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso"
+  default = "https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66751/22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_fr-fr.iso"
 }
 
 variable "vm_cpu_cores" {
@@ -31,7 +31,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "win11-22h2-x64-enterprise-template"
+  default = "win11-22h2-x64-fr-enterprise-template"
 }
 
 variable "winrm_password" {
@@ -85,7 +85,7 @@ locals {
   template_description = "Windows 11 22H2 64-bit Enterprise template built ${legacy_isotime("2006-01-02 03:04:05")} username:password => localuser:password"
 }
 
-source "proxmox-iso" "win11-22h2-x64-enterprise" {
+source "proxmox-iso" "win11-22h2-x64-fr-enterprise" {
   # Hit the "Press any key to boot from CD ROM"
   boot_wait = "-1s" # To set boot_wait to 0s, use a negative number, such as "-1s"
   boot_command = [  # 120 seconds of enters to cover all different speeds of disks as windows boots
@@ -108,9 +108,9 @@ source "proxmox-iso" "win11-22h2-x64-enterprise" {
     unmount          = true
     cd_label         = "PROVISION"
     cd_files = [
-      "../common/setup-for-ansible.ps1",
-      "../common/win-updates.ps1",
-      "../common/windows-common-setup.ps1",
+      "iso/setup-for-ansible.ps1",
+      "iso/win-updates.ps1",
+      "iso/windows-common-setup.ps1",
       "Autounattend.xml",
     ]
   }
@@ -169,18 +169,18 @@ source "proxmox-iso" "win11-22h2-x64-enterprise" {
 }
 
 build {
-  sources = ["source.proxmox-iso.win11-22h2-x64-enterprise"]
+  sources = ["source.proxmox-iso.win11-22h2-x64-fr-enterprise"]
 
   provisioner "windows-shell" {
-    scripts = ["../scripts/disablewinupdate.bat"]
+    scripts = ["scripts/disablewinupdate.bat"]
   }
 
   provisioner "powershell" {
-    scripts = ["../scripts/disable-hibernate.ps1"]
+    scripts = ["scripts/disable-hibernate.ps1"]
   }
 
   provisioner "powershell" {
-    scripts = ["../scripts/install-virtio-drivers.ps1"]
+    scripts = ["scripts/install-virtio-drivers.ps1"]
   }
 
 }
