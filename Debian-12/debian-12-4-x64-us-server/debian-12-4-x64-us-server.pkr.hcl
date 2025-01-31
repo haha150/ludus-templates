@@ -31,7 +31,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "debian-12-2-x64-us-server-template"
+  default = "debian-12-4-x64-us-server-template"
 }
 
 variable "ssh_password" {
