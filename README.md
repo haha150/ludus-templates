@@ -98,3 +98,63 @@ ludus templates logs -f
     - [ ] win2012-r2-server-x64-fr
     - [ ] win2019-server-x64-us-no-security-updates
     - [ ] win2019-server-x64-fr-no-security-updates
+
+## Templates being tested
+
+- Debian 10
+  - debian-10-7-x64-fr-server
+  - debian-10-7-x64-us-server
+  - debian-10-8-x64-fr-server
+  - debian-10-8-x64-us-server
+  - debian-10-9-x64-fr-server
+  - debian-10-9-x64-us-server
+  - debian-10-10-x64-fr-server
+  - debian-10-10-x64-us-server
+  - debian-10-11-x64-fr-server
+  - debian-10-11-x64-us-server
+  - debian-10-12-x64-fr-server
+  - debian-10-12-x64-us-server
+  - debian-10-13-x64-fr-server
+  - debian-10-13-x64-us-server
+- Debian 11
+  - debian-11-0-x64-fr-server
+  - debian-11-0-x64-us-server
+  - debian-11-1-x64-fr-server
+  - debian-11-1-x64-us-server
+  - debian-11-2-x64-fr-server
+  - debian-11-2-x64-us-server
+  - debian-11-3-x64-fr-server
+  - debian-11-3-x64-us-server
+  - debian-11-4-x64-fr-server
+  - debian-11-4-x64-us-server
+  - debian-11-5-x64-fr-server
+  - debian-11-5-x64-us-server
+  - debian-11-6-x64-fr-server
+  - debian-11-6-x64-us-server
+  - debian-11-7-x64-fr-server
+  - debian-11-7-x64-us-server
+  - debian-11-8-x64-fr-server
+  - debian-11-8-x64-us-server
+  - debian-11-9-x64-fr-server
+  - debian-11-9-x64-us-server
+  - debian-11-10-x64-fr-server
+  - debian-11-10-x64-us-server
+  - debian-11-11-x64-fr-server
+  - debian-11-11-x64-us-server
+- Debian 12
+  - debian-12-0-x64-fr-server
+  - debian-12-0-x64-us-server
+  - debian-12-1-x64-fr-server
+  - debian-12-1-x64-us-server
+  - debian-12-2-x64-fr-server
+  - debian-12-2-x64-us-server
+  - debian-12-4-x64-fr-server
+  - debian-12-4-x64-us-server
+  - debian-12-5-x64-fr-server
+  - debian-12-5-x64-us-server
+  - debian-12-6-x64-fr-server
+  - debian-12-6-x64-us-server
+  - debian-12-7-x64-fr-server
+  - debian-12-7-x64-us-server
+  - debian-12-8-x64-fr-server
+  - debian-12-8-x64-us-server
