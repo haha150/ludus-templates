@@ -62,6 +62,7 @@ ludus templates logs -f
 
 - English
   - Windows
+    - [x] win2016-server-x64-us
   - Linux
     - [x] almalinux-8-x64-us-server
     - [x] almalinux-9-x64-us-server
