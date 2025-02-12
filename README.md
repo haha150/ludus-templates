@@ -78,6 +78,7 @@ ludus templates logs -f
 - English
   - Windows
     - [x] win10-22h2-x64-us-enterprise
+    - [x] win2019-server-x64-us
     - [x] win2022-server-x64-us
   - Linux
     - [x] almalinux-8-x64-us-server
