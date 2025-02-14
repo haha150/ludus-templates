@@ -42,6 +42,7 @@ ludus templates logs -f
 
 - French
   - Windows
+    - [x] win10-21h2-x64-fr-enterprise
     - [x] win10-22h2-x64-fr-enterprise
     - [x] win11-22h2-x64-fr-enterprise
     - [x] win2016-server-x64-fr
@@ -62,6 +63,7 @@ ludus templates logs -f
 
 - English
   - Windows
+    - [x] win10-21h2-x64-us-enterprise
     - [x] win2016-server-x64-us
   - Linux
     - [x] almalinux-8-x64-us-server
@@ -90,8 +92,6 @@ ludus templates logs -f
 ## Templates to come
 
 - From LUDUS github with language change and native template renaming and made standalone if needed :
-    - [ ] win10-21h1-x64-us-enterprise
-    - [ ] win10-21h1-x64-fr-enterprise
     - [ ] win11-22h2-x64-us-enterprise
     - [ ] win11-22h2-x64-fr-enterprise
     - [ ] win11-23h2-x64-us-enterprise
