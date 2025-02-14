@@ -1,6 +1,6 @@
 variable "iso_checksum" {
   type    = string
-  default = "sha256:ebbc79106715f44f5020f77bd90721b17c5a877cbc15a3535b99155493a1bb3f"
+  default = "sha256:392a21a1e904a1817d61eabea0cc761b4ac193723774274c90506137cc2a46c6"
 }
 
 # https://github.com/proxmox/qemu-server/blob/9b1971c5c991540f27270022e586aec5082b0848/PVE/QemuServer.pm#L412

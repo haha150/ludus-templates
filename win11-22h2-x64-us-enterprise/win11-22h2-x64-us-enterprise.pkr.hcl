@@ -31,7 +31,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "win11-22h2-x64-enterprise-template"
+  default = "win11-22h2-x64-us-enterprise-template"
 }
 
 variable "winrm_password" {
@@ -85,7 +85,7 @@ locals {
   template_description = "Windows 11 22H2 64-bit Enterprise template built ${legacy_isotime("2006-01-02 03:04:05")} username:password => localuser:password"
 }
 
-source "proxmox-iso" "win11-22h2-x64-enterprise" {
+source "proxmox-iso" "win11" {
   # Hit the "Press any key to boot from CD ROM"
   boot_wait = "-1s" # To set boot_wait to 0s, use a negative number, such as "-1s"
   boot_command = [  # 120 seconds of enters to cover all different speeds of disks as windows boots
@@ -108,18 +108,18 @@ source "proxmox-iso" "win11-22h2-x64-enterprise" {
     unmount          = true
     cd_label         = "PROVISION"
     cd_files = [
-      "../common/setup-for-ansible.ps1",
-      "../common/win-updates.ps1",
-      "../common/windows-common-setup.ps1",
+      "iso/setup-for-ansible.ps1",
+      "iso/win-updates.ps1",
+      "iso/windows-common-setup.ps1",
       "Autounattend.xml",
     ]
   }
   additional_iso_files {
-    device           = "sata4"
-    iso_checksum     = "sha256:ebd48258668f7f78e026ed276c28a9d19d83e020ffa080ad69910dc86bbcbcc6"
-    iso_url          = "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.240-1/virtio-win-0.1.240.iso"
-    iso_storage_pool = "${var.iso_storage_pool}"
-    unmount          = true
+    device               = "sata4"
+    iso_checksum         = "sha256:ebd48258668f7f78e026ed276c28a9d19d83e020ffa080ad69910dc86bbcbcc6"
+    iso_url              = "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.240-1/virtio-win-0.1.240.iso"
+    iso_storage_pool     = "${var.iso_storage_pool}"
+    unmount              = true
   }
   # Required for Win11
   bios = "ovmf"
@@ -169,18 +169,18 @@ source "proxmox-iso" "win11-22h2-x64-enterprise" {
 }
 
 build {
-  sources = ["source.proxmox-iso.win11-22h2-x64-enterprise"]
+  sources = ["source.proxmox-iso.win11"]
 
   provisioner "windows-shell" {
-    scripts = ["../scripts/disablewinupdate.bat"]
+    scripts = ["scripts/disablewinupdate.bat"]
   }
 
   provisioner "powershell" {
-    scripts = ["../scripts/disable-hibernate.ps1"]
+    scripts = ["scripts/disable-hibernate.ps1"]
   }
 
   provisioner "powershell" {
-    scripts = ["../scripts/install-virtio-drivers.ps1"]
+    scripts = ["scripts/install-virtio-drivers.ps1"]
   }
 
 }
