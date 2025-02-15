@@ -31,7 +31,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "almalinux-9-x64-fr-server-template"
+  default = "almalinux-9-5-x64-fr-server-template"
 }
 
 variable "ssh_password" {
