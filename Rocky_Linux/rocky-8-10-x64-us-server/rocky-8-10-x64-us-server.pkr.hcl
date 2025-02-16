@@ -31,7 +31,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "rocky-8-x64-fr-server-template"
+  default = "rocky-8-10-x64-us-server-template"
 }
 
 variable "ssh_password" {

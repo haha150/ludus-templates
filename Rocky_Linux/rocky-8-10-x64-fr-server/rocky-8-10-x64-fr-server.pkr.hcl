@@ -1,6 +1,6 @@
 variable "iso_checksum" {
   type    = string
-  default = "sha256:eedbdc2875c32c7f00e70fc861edef48587c7cbfd106885af80bdf434543820b"
+  default = "sha256:2c735d3b0de921bd671a0e2d08461e3593ac84f64cdaef32e3ed56ba01f74f4b"
 }
 
 # The operating system. Can be wxp, w2k, w2k3, w2k8, wvista, win7, win8, win10, l24 (Linux 2.4), l26 (Linux 2.6+), solaris or other. Defaults to other.
@@ -11,7 +11,7 @@ variable "os" {
 
 variable "iso_url" {
   type    = string
-  default = "https://download.rockylinux.org/pub/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-minimal.iso"
+  default = "https://download.rockylinux.org/pub/rocky/8.10/isos/x86_64/Rocky-8.10-x86_64-minimal.iso"
 }
 
 variable "vm_cpu_cores" {
@@ -31,7 +31,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "rocky-9-x64-fr-server-template"
+  default = "rocky-8-10-x64-fr-server-template"
 }
 
 variable "ssh_password" {
@@ -82,12 +82,12 @@ variable "ludus_nat_interface" {
 ####
 
 locals {
-  template_description = "Rocky 9 template built ${legacy_isotime("16-Nov-2024 04:07:05")} username:password => localuser:password"
+  template_description = "Rocky 8 template built ${legacy_isotime("27-May-2024 15:05:05")} username:password => localuser:password"
 }
 
-source "proxmox-iso" "rocky9" {
+source "proxmox-iso" "rocky8" {
   boot_command = [
-     "<tab> text inst.ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/rocky-9-preseed.cfg<enter><wait>"
+     "<tab> text inst.ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/rocky-8-preseed.cfg<enter><wait>"
   ]
   boot_key_interval = "100ms"
   http_directory    = "./http"
@@ -130,7 +130,7 @@ source "proxmox-iso" "rocky9" {
 }
 
 build {
-  sources = ["source.proxmox-iso.rocky9"]
+  sources = ["source.proxmox-iso.rocky8"]
 
   provisioner "ansible" {
     playbook_file = "ansible/reset-ssh-host-keys.yml"
