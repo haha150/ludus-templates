@@ -43,23 +43,23 @@ ludus templates logs -f
 | OS type | Distribution | Version | Languages | Info |
 |:---:|:---:|:---:|:---:|:---:|
 | Microsoft | Windows Server | 2012 R2 | fr , us | |
-| Microsoft | Windows Server | 2019 | fr , us | No security updates |
-| Linux | Kali | 2024.4 | fr , us | Desktop , Recon|
+| Linux | Kali | 2024.4 | fr , us | Desktop , Recon |
 | Linux | Kali | 2024.4 | fr , us | Desktop , Web |
 
 ## TEMPLATES COVERAGE
 
 ### WINDOWS
 
-| OS type | Distribution | Version | Languages |
-|:---:|:---:|:---:|:---:|
-| Microsoft | Windows 10 | 21H2 LTSC | fr , us |
-| Microsoft | Windows 10 | 22H2 | fr , us |
-| Microsoft | Windows 11 | 22H2 | fr , us |
-| Microsoft | Windows 11 | 23H2 | fr , us |
-| Microsoft | Windows Server | 2016 | fr , us |
-| Microsoft | Windows Server | 2019 | fr , us |
-| Microsoft | Windows Server | 2022 | fr , us |
+| OS type | Distribution | Version | Languages | Info |
+|:---:|:---:|:---:|:---:|:---:|
+| Microsoft | Windows 10 | 21H2 LTSC | fr , us | |
+| Microsoft | Windows 10 | 22H2 | fr , us | |
+| Microsoft | Windows 11 | 22H2 | fr , us | |
+| Microsoft | Windows 11 | 23H2 | fr , us | | 
+| Microsoft | Windows Server | 2016 | fr , us | |
+| Microsoft | Windows Server | 2019 | fr , us | |
+| Microsoft | Windows Server | 2019 | fr , us | No security updates |
+| Microsoft | Windows Server | 2022 | fr , us | |
 
 ### LINUX - ALMALINUX
 
@@ -116,7 +116,7 @@ ludus templates logs -f
 | Linux | Rocky | 8.10 | fr , us |
 | Linux | Rocky | 9.5 | fr , us |
 
-### LINUX - ROCKY
+### LINUX - UBUNTU
 
 | OS type | Distribution | Version | Languages |
 |:---:|:---:|:---:|:---:|
