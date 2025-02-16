@@ -20,22 +20,51 @@ Here are some templates I'm using to get my ranges up.
 3. Add the templates from directory
 
 ```bash
-ludus templates add -d debian-10-10-x64-fr-server
-ludus templates add -d debian-12-8-x64-fr-server
+ludus templates add -d Debian/debian-10-10-x64-fr-server
+ludus templates add -d Debian/debian-12-8-x64-fr-server
 for filename in *-*; do ludus template add -d $filename; done;
 ```
 
-4. Build the templates
+4. Show templates list
+
+```bash
+ludus templates list
++----------------------------------------------------+-------+
+|                      TEMPLATE                      | BUILT |
++----------------------------------------------------+-------+
+| debian-10-10-x64-fr-server-template                | FALSE |
+| debian-12-8-x64-fr-server-template                 | FALSE |
++----------------------------------------------------+-------+
+```
+
+5. Build the templates
 
 ```bash
 ludus templates build -n debian-10-10-x64-fr-server-template
 [INFO]  Template building started - this will take a while. Building 1 template(s) at a time.
 ```
 
-5. Look at the install logs
+6. Look at the install logs
 
 ```bash
 ludus templates logs -f
+```
+
+7. After the building is succesfull
+
+```bash
+=>================
+=> Build complete!
+=>================
+^C
+
+ludus templates list
++----------------------------------------------------+-------+
+|                      TEMPLATE                      | BUILT |
++----------------------------------------------------+-------+
+| debian-10-10-x64-fr-server-template                | TRUE  |
+| debian-12-8-x64-fr-server-template                 | FALSE |
++----------------------------------------------------+-------+
 ```
 
 ## BEEING TESTED
