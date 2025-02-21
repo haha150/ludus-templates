@@ -31,7 +31,7 @@ variable "vm_memory" {
 
 variable "vm_name" {
   type    = string
-  default = "ubuntu-20.04-x64-fr-server-template"
+  default = "ubuntu-20.04.1-x64-fr-server-template"
 }
 
 variable "ssh_password" {
@@ -85,7 +85,7 @@ locals {
   template_description = "Ubutntu 20.04 template built ${legacy_isotime("2006-01-02 03:04:05")} username:password => localuser:password"
 }
 
-source "proxmox-iso" "ubuntu-20" {
+source "proxmox-iso" "ubuntu2004" {
   boot_command = [
     "<esc><wait>",
     "<esc><wait>",
@@ -152,7 +152,7 @@ source "proxmox-iso" "ubuntu-20" {
 }
 
 build {
-  sources = ["source.proxmox-iso.ubuntu-20"]
+  sources = ["source.proxmox-iso.ubuntu2004"]
 
   provisioner "ansible" {
     playbook_file = "ansible/post-boot-config.yml"
