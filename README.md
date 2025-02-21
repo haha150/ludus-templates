@@ -150,5 +150,6 @@ ludus templates list
 | OS type | Distribution | Version | Languages |
 |:---:|:---:|:---:|:---:|
 | Linux | Ubuntu | 20.04.1 | fr , us |
+| Linux | Ubuntu | 22.04.1 | fr , us |
 | Linux | Ubuntu | 22.04.5 | fr , us |
 | Linux | Ubuntu | 24.04.1 | fr , us |
