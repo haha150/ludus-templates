@@ -140,7 +140,7 @@ ludus templates list
 ### LINUX - KALI
 
 | OS type | Distribution | Release | Version | Languages |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 | Linux | Kali | 2024.4 | Desktop | fr , us |
 | Linux | Kali | 2024.4 | Desktop , Pentest | fr , us |
 
