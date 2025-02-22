@@ -92,67 +92,67 @@ ludus templates list
 
 ### LINUX - ALMALINUX
 
-| OS type | Distribution | Version | Languages |
-|:---:|:---:|:---:|:---:|
-| Linux | Almalinux | 8.10 | fr , us |
-| Linux | Almalinux | 9.5 | fr , us |
+| OS type | Distribution | Version | Release | Languages |
+|:---:|:---:|:---:|:---:|:---:|
+| Linux | Almalinux | 8.10 | Server | fr , us |
+| Linux | Almalinux | 9.5 | Server | fr , us |
 
 ### LINUX - DEBIAN
 
-| OS type | Distribution | Version | Languages |
-|:---:|:---:|:---:|:---:|
-| Linux | Debian | 10.7 | fr , us |
-| Linux | Debian | 10.8 | fr , us |
-| Linux | Debian | 10.9 | fr , us |
-| Linux | Debian | 10.10 | fr , us |
-| Linux | Debian | 10.11 | fr , us |
-| Linux | Debian | 10.12 | fr , us |
-| Linux | Debian | 10.13 | fr , us |
-| Linux | Debian | 11.0 | fr , us |
-| Linux | Debian | 11.1 | fr , us |
-| Linux | Debian | 11.2 | fr , us |
-| Linux | Debian | 11.3 | fr , us |
-| Linux | Debian | 11.4 | fr , us |
-| Linux | Debian | 11.5 | fr , us |
-| Linux | Debian | 11.6 | fr , us |
-| Linux | Debian | 11.7 | fr , us |
-| Linux | Debian | 11.8 | fr , us |
-| Linux | Debian | 11.9 | fr , us |
-| Linux | Debian | 11.10 | fr , us |
-| Linux | Debian | 11.11 | fr , us |
-| Linux | Debian | 12.0 | fr , us |
-| Linux | Debian | 12.1 | fr , us |
-| Linux | Debian | 12.2 | fr , us |
-| Linux | Debian | 12.3 | fr , us |
-| Linux | Debian | 12.4 | fr , us |
-| Linux | Debian | 12.5 | fr , us |
-| Linux | Debian | 12.6 | fr , us |
-| Linux | Debian | 12.7 | fr , us |
-| Linux | Debian | 12.8 | fr , us |
-| Linux | Debian | 12.9 | fr , us |
+| OS type | Distribution | Version | Release | Languages |
+|:---:|:---:|:---:|:---:|:---:|
+| Linux | Debian | 10.7 | Server | fr , us |
+| Linux | Debian | 10.8 | Server | fr , us |
+| Linux | Debian | 10.9 | Server | fr , us |
+| Linux | Debian | 10.10 | Server | fr , us |
+| Linux | Debian | 10.11 | Server | fr , us |
+| Linux | Debian | 10.12 | Server | fr , us |
+| Linux | Debian | 10.13 | Server | fr , us |
+| Linux | Debian | 11.0 | Server | fr , us |
+| Linux | Debian | 11.1 | Server | fr , us |
+| Linux | Debian | 11.2 | Server | fr , us |
+| Linux | Debian | 11.3 | Server | fr , us |
+| Linux | Debian | 11.4 | Server | fr , us |
+| Linux | Debian | 11.5 | Server | fr , us |
+| Linux | Debian | 11.6 | Server | fr , us |
+| Linux | Debian | 11.7 | Server | fr , us |
+| Linux | Debian | 11.8 | Server | fr , us |
+| Linux | Debian | 11.9 | Server | fr , us |
+| Linux | Debian | 11.10 | Server | fr , us |
+| Linux | Debian | 11.11 | Server | fr , us |
+| Linux | Debian | 12.0 | Server | fr , us |
+| Linux | Debian | 12.1 | Server | fr , us |
+| Linux | Debian | 12.2 | Server | fr , us |
+| Linux | Debian | 12.3 | Server | fr , us |
+| Linux | Debian | 12.4 | Server | fr , us |
+| Linux | Debian | 12.5 | Server | fr , us |
+| Linux | Debian | 12.6 | Server | fr , us |
+| Linux | Debian | 12.7 | Server | fr , us |
+| Linux | Debian | 12.8 | Server | fr , us |
+| Linux | Debian | 12.9 | Server | fr , us |
 
 ### LINUX - KALI
 
-| OS type | Distribution | Version | Languages | Packages |
-|:---:|:---:|:---:|:---:|:---:|
-| Linux | Kali | 2024.4 | fr , us | Desktop |
-| Linux | Kali | 2024.4 | fr , us | Desktop , Pentest |
+| OS type | Distribution | Release | Version | Languages |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Linux | Kali | 2024.4 | Desktop | fr , us |
+| Linux | Kali | 2024.4 | Desktop , Pentest | fr , us |
 
 ### LINUX - ROCKY
 
-| OS type | Distribution | Version | Languages |
-|:---:|:---:|:---:|:---:|
-| Linux | Rocky | 8.10 | fr , us |
-| Linux | Rocky | 9.5 | fr , us |
+| OS type | Distribution | Release | Version | Languages |
+|:---:|:---:|:---:|:---:|:---:|
+| Linux | Rocky | 8.10 | Server | fr , us |
+| Linux | Rocky | 9.5 | Server | fr , us |
 
 ### LINUX - UBUNTU
 
-| OS type | Distribution | Version | Languages |
-|:---:|:---:|:---:|:---:|
-| Linux | Ubuntu | 20.04.1 | fr , us |
-| Linux | Ubuntu | 22.04.1 | fr , us |
-| Linux | Ubuntu | 22.04.2 | fr , us |
-| Linux | Ubuntu | 22.04.3 | fr , us |
-| Linux | Ubuntu | 22.04.4 | fr , us |
-| Linux | Ubuntu | 22.04.5 | fr , us |
-| Linux | Ubuntu | 24.04.1 | fr , us |
+| OS type | Distribution | Release | Version | Languages |
+|:---:|:---:|:---:|:---:|:---:|
+| Linux | Ubuntu | 20.04.1 | Server | fr , us |
+| Linux | Ubuntu | 22.04.1 | Server | fr , us |
+| Linux | Ubuntu | 22.04.2 | Server | fr , us |
+| Linux | Ubuntu | 22.04.3 | Server | fr , us |
+| Linux | Ubuntu | 22.04.4 | Server | fr , us |
+| Linux | Ubuntu | 22.04.5 | Server | fr , us |
+| Linux | Ubuntu | 24.04.1 | Desktop | fr , us |
