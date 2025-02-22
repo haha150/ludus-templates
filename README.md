@@ -97,6 +97,12 @@ ludus templates list
 | Linux | Almalinux | 8.10 | Server | fr , us |
 | Linux | Almalinux | 9.5 | Server | fr , us |
 
+### LINUX - CENTOS
+
+| OS type | Distribution | Version | Release | Languages |
+|:---:|:---:|:---:|:---:|:---:|
+| Linux | CentOS | 8.5.2111 | Server | fr , us |
+
 ### LINUX - DEBIAN
 
 | OS type | Distribution | Version | Release | Languages |
