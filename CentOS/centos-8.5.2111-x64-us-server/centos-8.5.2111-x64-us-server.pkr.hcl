@@ -11,7 +11,7 @@ variable "os" {
 
 variable "iso_url" {
   type    = string
-  default = "http://archive.kernel.org/centos-vault/8.5.2111/isos/x86_64/CentOS-8.5.2111-x86_64-boot.iso"
+  default = "http://mirror.nsc.liu.se/centos-store/centos/8.5.2111/isos/x86_64/CentOS-8.5.2111-x86_64-boot.iso"
 }
 
 variable "vm_cpu_cores" {
