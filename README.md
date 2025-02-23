@@ -101,8 +101,9 @@ ludus templates list
 
 | OS type | Distribution | Release | Version | Languages |
 |:---:|:---:|:---:|:---:|:---:|
-| Linux | CentOS | 8.5.2111 | Server | fr , us |
+| Linux | CentOS | 8.3.2011 | Server | fr , us |
 | Linux | CentOS | 8.4.2105 | Server | fr , us |
+| Linux | CentOS | 8.5.2111 | Server | fr , us |
 
 ### LINUX - DEBIAN
 
