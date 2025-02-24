@@ -101,6 +101,7 @@ ludus templates list
 
 | OS type | Distribution | Release | Version | Languages |
 |:---:|:---:|:---:|:---:|:---:|
+| Linux | CentOS | 8.1.1911 | Server | fr , us |
 | Linux | CentOS | 8.2.2004 | Server | fr , us |
 | Linux | CentOS | 8.3.2011 | Server | fr , us |
 | Linux | CentOS | 8.4.2105 | Server | fr , us |
