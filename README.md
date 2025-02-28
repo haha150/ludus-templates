@@ -157,12 +157,13 @@ ludus templates list
 
 ### LINUX - UBUNTU
 
-| OS type | Distribution | Release | Version | Languages |
-|:---:|:---:|:---:|:---:|:---:|
-| Linux | Ubuntu | 20.04.1 | Server | fr , us |
-| Linux | Ubuntu | 22.04.1 | Server | fr , us |
-| Linux | Ubuntu | 22.04.2 | Server | fr , us |
-| Linux | Ubuntu | 22.04.3 | Server | fr , us |
-| Linux | Ubuntu | 22.04.4 | Server | fr , us |
-| Linux | Ubuntu | 22.04.5 | Server | fr , us |
-| Linux | Ubuntu | 24.04.1 | Desktop | fr , us |
+| OS type | Distribution | Release | Version | Languages | Contributor |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Linux | Ubuntu | 20.04.1 | Server | fr , us | |
+| Linux | Ubuntu | 22.04.1 | Server | fr , us | |
+| Linux | Ubuntu | 22.04.2 | Server | fr , us | |
+| Linux | Ubuntu | 22.04.3 | Server | fr , us | |
+| Linux | Ubuntu | 22.04.4 | Server | fr , us | |
+| Linux | Ubuntu | 22.04.5 | Server | fr , us | |
+| Linux | Ubuntu | 24.04.1 | Server | fr , us | [frack113](https://github.com/frack113) |
+| Linux | Ubuntu | 24.04.1 | Desktop | fr , us | |
