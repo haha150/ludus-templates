@@ -167,3 +167,4 @@ ludus templates list
 | Linux | Ubuntu | 22.04.5 | Server | fr , us | |
 | Linux | Ubuntu | 24.04.1 | Server | fr , us | [frack113](https://github.com/frack113) |
 | Linux | Ubuntu | 24.04.1 | Desktop | fr , us | |
+| Linux | Ubuntu | 24.04.2 | Desktop | fr , us | |
