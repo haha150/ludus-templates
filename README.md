@@ -109,6 +109,7 @@ ludus templates list
 | Linux | CentOS | 8.3.2011 | Server | fr , us |
 | Linux | CentOS | 8.4.2105 | Server | fr , us |
 | Linux | CentOS | 8.5.2111 | Server | fr , us |
+| Linux | CentOS | 8-Stream | Server | fr , us |
 
 ### LINUX - DEBIAN
 
