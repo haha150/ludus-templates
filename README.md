@@ -95,6 +95,7 @@ ludus templates list
 | OS type | Distribution | Release | Version | Languages |
 |:---:|:---:|:---:|:---:|:---:|
 | Linux | Almalinux | 8.10 | Server | fr , us |
+| Linux | Almalinux | 9.4 | Server | fr , us |
 | Linux | Almalinux | 9.5 | Server | fr , us |
 
 ### LINUX - CENTOS
