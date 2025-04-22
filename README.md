@@ -92,14 +92,14 @@ ludus templates list
 
 ### LINUX - ALMALINUX
 
-| OS type | Distribution | Release | Version | Languages |
-|:---:|:---:|:---:|:---:|:---:|
-| Linux | Almalinux | 8.10 | Server | fr , us |
-| Linux | Almalinux | 9.1 | Server | fr , us |
-| Linux | Almalinux | 9.2 | Server | fr , us |
-| Linux | Almalinux | 9.3 | Server | fr , us |
-| Linux | Almalinux | 9.4 | Server | fr , us |
-| Linux | Almalinux | 9.5 | Server | fr , us |
+| OS type | Distribution | Release | Version | Languages | Contributor |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Linux | Almalinux | 8.10 | Server | fr , us | |
+| Linux | Almalinux | 9.1 | Server | fr , us | |
+| Linux | Almalinux | 9.2 | Server | fr , us | |
+| Linux | Almalinux | 9.3 | Server | fr , us | |
+| Linux | Almalinux | 9.4 | Server | fr , us | |
+| Linux | Almalinux | 9.5 | Server | fr , us | [dygland](https://github.com/dygland) |
 
 ### LINUX - CENTOS
 
